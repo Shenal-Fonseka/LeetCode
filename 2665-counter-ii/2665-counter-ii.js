@@ -1,17 +1,16 @@
 
 var createCounter = function(init) {
-    let reset = init
+    const reset = init
     return{
-        increment: function(){
+        increment: ()=> {
             init++
             return init
         },
-        decrement: function(){
+        decrement: ()=> {
             init--
-            return init
-            
+            return init    
         },
-        reset: function(){
+        reset: ()=> {
             init = reset
             return init
         }
