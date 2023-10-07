@@ -6,7 +6,6 @@ const createHelloWorld = () => {
   
 }
 
-
 const f = createHelloWorld();
 f(); // "Hello World"
  
